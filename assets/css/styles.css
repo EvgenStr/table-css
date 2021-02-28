@@ -2,6 +2,21 @@
   --thead-color: 0, 0, 105;
 }
 
+table {
+  margin: 0 auto;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  border-collapse: collapse;
+}
+th {
+  color: white;
+  padding: 25px 0;
+}
+span {
+  font-size: 20px;
+}
 th:last-child {
   background-color: rgb(var(--thead-color));
 }
@@ -17,26 +32,28 @@ th:last-child {
 .th-color-1 {
   background-color: rgba(var(--thead-color), 0.4);
 }
-table {
-  margin: 0 auto;
-  width: 50%;
-  border: 1px solid black;
-  border-radius: 10px;
-  overflow: hidden;
-  border-collapse: collapse;
-}
 
 .start-btn {
-  /* display: inline-block; */
+  display: inline-block;
+  padding: 5px 8px;
+  margin-top: 5px;
   text-decoration: none;
   text-transform: uppercase;
   border: 1px solid gray;
   color: black;
-  /* margin: 0 auto; */
+  background-color: white;
 }
 
-tbody, tfoot {
+tbody,
+tfoot {
   text-align: center;
+}
+td {
+  padding: 15px 10px;
+}
+.foot-background > td{
+  /* padding: 10px 20px; */
+  background-color: rgb(201,201,201);
 }
 
 tr:nth-child(2n-1) {
@@ -46,10 +63,9 @@ tr:nth-child(2n-1) {
 td:nth-child(2n-1) {
   background-color: rgba(85, 84, 84, 0.2);
 }
-td:first-child{
+td:first-child {
   text-align: left;
 }
-
 
 td {
   /* border-top: 1px solid black; */
