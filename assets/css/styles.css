@@ -1,8 +1,37 @@
+:root{
+  --thead-color:rgba(0, 0, 105, 1);
+}
+
 th:first-child {
-  column-span: 2;
+ background-color: rgb(121,121,168);
 }
 table {
+  margin: 0 auto;
+  width: 50%;
   border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  border-collapse: collapse;
+
+}
+tbody {
+  /* border-collapse: collapse; */
+}
+td {
+  /* border-top: 1px solid black; */
+  /* border-collapse: collapse; */
+
+}
+td ~ td {
+  /* border-left: 1px solid black; */
+}
+tr ~ tr {
+  /* border-top: 1px solid black; */
+}
+tr:nth-child(2n-1){
+  background-color: rgba(128, 128, 128, 0.2);
 }
 
-
+td:nth-child(2n-1){
+  background-color: rgba(85, 84, 84, 0.2);
+}
