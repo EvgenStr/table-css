@@ -55,6 +55,7 @@ th:last-child {
 td {
   padding: 12px 25px;
 }
+
 .foot-background > td {
   background-color: rgb(201, 201, 201);
 }
@@ -66,6 +67,7 @@ tr:nth-child(2n-1) {
 td:nth-child(2n-1) {
   background-color: rgba(85, 84, 84, 0.2);
 }
+
 td:first-child {
   text-align: left;
 }
