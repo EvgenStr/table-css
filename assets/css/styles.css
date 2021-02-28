@@ -1,0 +1,8 @@
+th:first-child {
+  column-span: 2;
+}
+table {
+  border: 1px solid black;
+}
+
+
